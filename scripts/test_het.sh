@@ -1,0 +1,18 @@
+python ../main.py \
+    -data ../data/hetionet/pro_data/ \
+    -o ../het \
+    --model_load_path ../klar/textual_encoder_checkpoint/hetionet \
+    --KG_embedding_path ../klar/graph_encoder_checkpoint/hetionet/trained_999.pth \
+    --max_path_len 6 \
+    --freeze \
+    -lr=1e-6 \
+    -m \
+    -me=16 \
+    -mh=256 \
+    -mk=2 \
+    -b=64 \
+    --metric_name Eval-hits10 \
+    --data_loader_workers 10 \
+    -e=15 \
+    -t \
+    --test_model_path enter/your/test/model/path/last_model.ckpt
