@@ -7,9 +7,7 @@
   <a href="#quick-start">Quick Start</a> •
   <a href="#method">Method</a> •
   <a href="#experiments">Experiments</a> •
-  <a href="#results">Results</a> •
-  <a href="#citation">Citation</a> •
-  <a href="#acknowledgments">Acknowledgments</a>
+  <a href="#results">Results</a> 
 </p>
 
 ---
