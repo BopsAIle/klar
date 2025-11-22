@@ -296,7 +296,6 @@ To evaluate whether KLaR can recover biologically meaningful relations absent at
 
 ```
 KLaR/
-├── configs/              # Configuration files
 ├── data/                 # Datasets and knowledge graphs
 ├── klar/                 # Main source code
 │   ├── model/            # Model architectures
@@ -305,8 +304,9 @@ KLaR/
 │   ├── qwen3_checkpoint/           # textual encoder checkpoint
 │   └── __init__.py
 ├── scripts/             # Training and evaluation scripts
+├── main.py              # Entry point for training and evaluation
 ├── requirements.txt     # Python dependencies
-└── README.md           # This file
+└── README.md            # This file
 ```
 
 ---
