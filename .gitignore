@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+PL_logs/
+output/
+log.log
+
+# Ignore oversized raw/processed files (>50MB) so GitHub push succeeds cleanly
+data/suppkg_v1/raw_data/fp_provenance.tsv
+data/*/pro_data/*.pt
+data/*/pro_data/entity_corpus.jsonl
+data/*/pro_data/reverse_graph.json

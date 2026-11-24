@@ -1,0 +1,1 @@
+{"PATHWAY_GENE": "involves gene", "DRUG_TARGET_GENE": "targets gene", "NETWORK_GENE": "includes gene", "DISEASE_GENE": "is associated with gene", "DRUG_EFFICACY_DISEASE": "treats disease", "DISEASE_PATHWAY": "alters pathway", "DRUG_TARGET_PATHWAY": "modulates pathway", "NETWORK_PATHWAY": "is part of pathway", "DISEASE_NETWORK": "disrupts biological network"}

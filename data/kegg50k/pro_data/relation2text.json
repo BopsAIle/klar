@@ -1,0 +1,38 @@
+{
+  "PATHWAY_GENE": {
+    "forward": "involves gene",
+    "backward": "participates in pathway"
+  },
+  "DRUG_TARGET_GENE": {
+    "forward": "targets gene",
+    "backward": "is targeted by drug"
+  },
+  "NETWORK_GENE": {
+    "forward": "includes gene",
+    "backward": "belongs to biological network"
+  },
+  "DISEASE_GENE": {
+    "forward": "is associated with gene",
+    "backward": "is associated with disease"
+  },
+  "DRUG_EFFICACY_DISEASE": {
+    "forward": "treats disease",
+    "backward": "is treated by drug"
+  },
+  "DISEASE_PATHWAY": {
+    "forward": "alters pathway",
+    "backward": "is altered in disease"
+  },
+  "DRUG_TARGET_PATHWAY": {
+    "forward": "modulates pathway",
+    "backward": "is modulated by drug"
+  },
+  "NETWORK_PATHWAY": {
+    "forward": "is part of pathway",
+    "backward": "contains biological network"
+  },
+  "DISEASE_NETWORK": {
+    "forward": "disrupts biological network",
+    "backward": "is disrupted in disease"
+  }
+}
